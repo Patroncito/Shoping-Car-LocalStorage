@@ -1,0 +1,86 @@
+body{
+   
+    margin: 0;
+   background: url(Imagenes/portada10.jpg);
+   background-size: cover;
+    background-attachment: fixed;
+   
+}
+*{
+    box-sizing: border-box;
+}
+.contenedor {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.datos-contenedor{
+margin-bottom: 15px;
+border: 1px solid #aaa;
+}
+.datosusuario{
+    background-color: white;
+    margin-top: 150px;
+    padding: 3px; 
+}
+h1{
+    text-align: center;
+    color: teal;
+    font-size: 50px;
+}
+.subtitulo{
+    text-align: center;
+    color: teal;
+    font-size: 15px;
+}
+
+input[type="password"], input[type="text"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    background-color: teal;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(184, 154, 24);
+}
+p{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+  font-weight: 600;
+}
+.link:hover{
+    color: green;
+}
+
+@media(min-width:768px)
+{
+    .datosusuario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 3%;
+    }
+}

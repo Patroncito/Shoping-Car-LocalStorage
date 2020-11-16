@@ -1,0 +1,514 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+  
+}
+
+.contenedor{
+	padding: 120px 0;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.titulo1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada1.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada1.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header1 {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada2.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada2.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.header2 {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada4.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada4.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header3 {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada5.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada5.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.header5 {
+    width: 100%;
+    height: 0px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header8 {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada11.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(150, 95%, 50%, 0.459), hsla(20, 45%, 52%, 0.664)), url(Imagenes/portada11.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+	text-align: center;
+	padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+header .textosHeaders{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textosHeaders h1{
+ font-size: 50px;
+    color:#fff;
+}
+
+.textosHeaders h2{
+	font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.contenedor-nosotros{
+	display: flex;
+    justify-content: space-evenly;
+}
+.imgaboutus{
+	width: 48%;
+}
+
+.contenedortexto1{
+	width: 48%
+}
+.contenedortexto1 h3{
+	margin-bottom: 15px;
+}
+.contenedortexto1 h3 span{
+	background: #F5BB62;
+    color: #fff;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenedortexto1 p{
+	padding: 0px 0px 30px  15px; 
+	font-weight: 300;
+	text-align: justify;
+}
+
+.portaelrapero{
+	background: #f2f2f2;
+}
+
+.galeria{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.imagenportafolio{
+	 width: 50%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+    padding-right: 30px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.imagenportafolio > img{
+	 width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.galeriaflotante {
+	position: absolute;
+    width: 96%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(100,30%,50%,0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.galeriaflotante img {
+	width: 50px;
+
+}
+.galeriaflotante p {
+	color: #fff;
+
+	
+}
+
+.imagenportafolio:hover .galeriaflotante {
+    transform: scale(1);
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tarjetas .tarjeta{
+    background: #00BAFF;
+    display: flex;
+    width: 40%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.tarjetas .tarjeta img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.tarjetas .tarjeta > .textocard{
+    width: 60%;
+    color: #fff;
+}
+
+.tarjetas .tarjeta > .textocard p{
+    font-weight: 300;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.servicios{
+	 background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.servicioscontenedor{
+	 display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicioparticular{
+	   width: 30%;
+    text-align: center;
+}
+
+.servicioparticular img{
+    width: 100%;
+}
+
+.servicioparticular h3{
+    margin: 10px 0;
+}
+
+.servicioparticular p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedorfotter{
+	 display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contfotter{
+	text-align: center;
+}
+
+.contfotter h4{
+    color: #fff;
+    border-bottom: 3px solid #17DFFA;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contfotter p{
+    color: #ccc;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor .textosHeaders{
+        width: 90%;
+    }
+
+    .imgaboutus{
+        width: 90%;
+    }
+
+    /* Galeria */
+
+    .imagenportafolio{
+        width: 44%;
+    }
+
+    /* Clientes */
+
+    .tarjetas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjetas .tarjeta{
+        width: 90%;
+    }
+
+    .tarjetas .tarjeta:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* servicios */
+
+    .servicioscontenedor{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicioparticular{
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    .servicioparticular:nth-child(1), .servicioparticular:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .servicioparticular img{
+        width: 90%;
+    }
+}
+
+/*adaptar a mobil */
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textosHeaders h1{
+        font-size: 35px;
+    }
+
+    .textosHeaders h2{
+        font-size: 20px;
+    }
+
+    /* ABOUT US */
+
+    .imgaboutus{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .contenedor .textosHeaders{
+        width: 95%;
+    }
+
+    /* Galeria */
+
+    .imagenportafolio{
+        width: 95%;
+    }
+
+    /* Clients */
+
+    .tarjetas .tarjeta{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .tarjetas .tarjeta img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Footer */
+
+    .contenedorfotter{
+   
+        flex-direction: column;
+        border: none;
+    }
+
+    .contfotter{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contfotter h4{
+        border: none;
+    }
+
+    .contfotter p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo2{
+        font-size: 20px;
+    }
+}
+
+
+/** CSS TIENDA EQUISDE
+*/
+
+.contenedorproductos{
+    padding: 100px 100px;
+    width: 100%;
+    margin-top: 50px;
+	max-width: 1000px;
+	overflow: hidden;
+}
+
+.card-header{
+    margin-bottom: 15px;
+    
+}
+
+.tituloItem{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.listass{
+    list-style: none;
+}
+
+
